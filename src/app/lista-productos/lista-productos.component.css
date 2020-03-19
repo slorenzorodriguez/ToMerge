@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h2 {
+  font-family: 'Courier New', cursive;
+  border-style: dotted;
+  border-color: #36474F;
+  border-width: thick;
+  color: #36474F;
+  font-weight: bold;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 170px 170px 170px 170px;
+  grid-template-rows: auto auto auto;
+}
+
+.item {
+  border-radius: 3px;
+  text-align: center;
+}
+
+#comprado {
+  background-color: #FF5253;
+}
+
+
+#no-comprado {
+  background-color: #04A699;
+}
